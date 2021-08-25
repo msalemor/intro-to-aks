@@ -38,19 +38,20 @@ A "big" services that involves issues of:
     - Pro: PODs get an IP from VNET and can communicate to/from other services on the network
     - CON: Node pre-allocates IPs from the network (30 default but can be configured). A large cluster may require a large network.
   - > Private cluster
-    - Cannot execute kubelet cmds outside the network
-  - public clustering 
-    - Can execute kubelet cmds from the internet
+    - No management operations allowed for outside the network where the cluster is deployed.
+  - Public Cluster
+    - With the proper credentials, management operations are allowed from the internet.
   - Egress
     - By default nodes connect to LB and traffic goes out to the internet freely
     - (*)This can be restricted by putting a UDR and FW to egress traffic
   - Ingress
-    - Loadbalancer
-    - AGIC or others (NGINX)
+    - Loadbalancer (private or public)
+    - Application Gateway Ingress Controller (AGIC) or others (NGINX, Traefik, etc.)
   - Traffic restrictions
-    - NSG: outside the cluster
-    - Network policies: indside the cluster
-- [Cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
+    - Use NSGs outside the cluster
+    - Use Network policies (Azure or Calico) indside the cluster
+
+## [Cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
   - [Sample Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster)
   - Perform a compound analysis
   - Resiliency, High availability, DR
@@ -73,7 +74,7 @@ A "big" services that involves issues of:
 
 - CI/CI pipelines with Git actions or Azure DevOps
 - [Helmp charts](https://helm.sh/)
-- [(*) Gitops](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks)
+- > [Gitops](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks)
 
 ## Security
 
