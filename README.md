@@ -21,11 +21,19 @@ Master, Node and Node Pools<br>VM Scale sets<br>Public vs Private cluster<br>CNI
     - Kubenet
     - Containerd
     - Etc.
-- [SLA](https://azure.microsoft.com/en-us/support/legal/sla/kubernetes-service/v1_1/)
-  - Service backed by VMs in scale sets
-  - 2 VMs (99.9%) or 3 VMs in availability zones (99.95%)
-  - [Uptime SLA - higher availability for the management plane](https://docs.microsoft.com/en-us/azure/aks/uptime-sla)
-  - [Perform a compound analysis](https://megamorf.gitlab.io/cheat-sheets/calculate-compound-availability/)
+- [SLA](https://azure.microsoft.com/en-us/support/legal/sla/kubernetes-service/v1_1/) And [Cloud Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
+  - SLA
+    - Service backed by VMs in scale sets
+    - 2 VMs (99.9%) or 3 VMs in availability zones (99.95%)
+    - [Uptime SLA - higher availability for the management plane](https://docs.microsoft.com/en-us/azure/aks/uptime-sla)
+    - [Perform a compound analysis](https://megamorf.gitlab.io/cheat-sheets/calculate-compound-availability/)
+  - Cloud Architecture
+    - [Sample Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster)  
+    - Resiliency
+    - Consider active-active or active-passive architecture
+    - DR strategies
+      - Backup and restore from/to the running images
+      - Restore from DevOps pipeline
 - Cost
   - Leverage reserved instances
   - Leverage second billing with ACI bursting
@@ -53,14 +61,6 @@ Master, Node and Node Pools<br>VM Scale sets<br>Public vs Private cluster<br>CNI
   - Traffic restrictions
     - Use NSGs outside the cluster
     - Use Network policies (Azure or Calico) inside the cluster
-
-## [Cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
-  - [Sample Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster)  
-  - Resiliency
-  - Consider active-active or active-passive architecture
-  - DR strategies
-    - Backup and restore from/to the running images
-    - Restore from DevOps pipeline
 
 ## Container Registry & Key Vault integration
 
