@@ -23,7 +23,7 @@ A "big" services that involves issues of:
     - Containerd
     - Etc.
 - [SLA](https://azure.microsoft.com/en-us/support/legal/sla/kubernetes-service/v1_1/)
-  - Backed by Scalesets
+  - Service backed by VMs in scale sets
   - 2 VMs (99.9%) or 3 VMs in availability zones (99.95%)
   - [Uptime SLA - higher availability for the management plane](https://docs.microsoft.com/en-us/azure/aks/uptime-sla)
   - [Perform a compound analysis](https://megamorf.gitlab.io/cheat-sheets/calculate-compound-availability/)
