@@ -4,10 +4,9 @@
 
 A "big" services that involves issues of:
 
-Infra | Development | DevOps | Security | Monitoring
+Infrastructure | Development | DevOps | Security | Monitoring
 ------ | ------|--------|---------|-----
-Public vs Private cluster<br>CNI vs Kubnet<br>Azure vs Calico<br>Ingress<br>Egress<br>DNS Configuration| Docker<br>VS Code Tools<br>Dapr | ADO<br>GitOps | RBAC<br>AAD Integration | Container Insights<br>Prometheus Grafana
-
+Public vs Private cluster<br>CNI vs Kubnet<br>Azure vs Calico<br>Ingress<br>Egress<br>DNS Configuration| Docker<br>VS Code Tools<br>Dapr | ADO<br>GitOps | RBAC<br>AAD Integration<br>Private Endpoints<br>Key Vault | Container Insights<br>Prometheus Grafana
 
 ## AKS Overview
 
