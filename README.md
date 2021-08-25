@@ -57,7 +57,11 @@ A "big" services that involves issues of:
 
 ## [Cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
   - [Sample Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster)  
-  - Resiliency, High availability, DR
+  - Resiliency
+  - Consider active-active or active-passive architecture
+  - DR strategies
+    - Backup and restore from/to the running images
+    - Restore from DevOps pipeline
 
 ## Container Registry & Key Vault integration
 
