@@ -4,12 +4,13 @@
 
 A "big" services that involves issues of:
 
-Infrastructure
-Development
-DevOps
-Monitoring
+- Infrastructure
+- Development
+- DevOps
+- Operating the cluster
+- Monitoring
 
-## Overview
+## AKS Overview
 
 - [Kubernetes architecture](https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads#kubernetes-cluster-architecture)
   - Master Node (Free from Microsoft)
