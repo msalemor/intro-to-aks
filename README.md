@@ -22,13 +22,16 @@ A "big" services that involves issues of:
     - Kubenet
     - Containerd
     - Etc.
-- SLA & [cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
+- [SLA](https://azure.microsoft.com/en-us/support/legal/sla/kubernetes-service/v1_1/) & [cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
   - Backed by Scalesets
   - 2 VMs (99.9) or 3 VMs in availability zone (99.95%)
+  - [Uptime SLA - higher availability for the management plane](https://docs.microsoft.com/en-us/azure/aks/uptime-sla)
   - Perform a compound analysis
   - Resiliency, High availability, DR
 - [Scalabiltiy](https://docs.microsoft.com/en-us/azure/aks/concepts-scale)
-  - HPA, Cluster auto-scaler, ACI
+  - HPA
+  - Cluster auto-scaler
+  - ACI (bursting)
 - [Networking](https://docs.microsoft.com/en-us/azure/aks/concepts-network)
   - Kubnet
     - Pro: Private IP range to the cluster. Use when you have exhasted your IP space.
