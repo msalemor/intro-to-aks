@@ -52,7 +52,7 @@ A "big" services that involves issues of:
 
 - RBAC
 - > AAD integration
-- > Recommendations from our team
+- > [Recommendations from our team](https://github.com/msalemor/aks-security-recommendations)
 
 ## Container Registry & Key Vault integration
 
