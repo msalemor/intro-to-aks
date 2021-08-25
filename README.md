@@ -27,6 +27,9 @@ A "big" services that involves issues of:
   - 2 VMs (99.9%) or 3 VMs in availability zones (99.95%)
   - [Uptime SLA - higher availability for the management plane](https://docs.microsoft.com/en-us/azure/aks/uptime-sla)
   - [Perform a compound analysis](https://megamorf.gitlab.io/cheat-sheets/calculate-compound-availability/)
+- Cost
+  - Leverage reserved instances
+  - Leverage second billing from ACIs
 - [Scalabiltiy](https://docs.microsoft.com/en-us/azure/aks/concepts-scale)
   - HPA
   - Cluster auto-scaler
