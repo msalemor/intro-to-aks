@@ -6,7 +6,7 @@ A "big" services that involves issues of:
 
 Infrastructure | Development | DevOps | Security | Monitoring
 ------ | ------|--------|---------|-----
-K8s architecture<br>Master, Node and Node Pools<br>VM Scale sets<br>Public vs Private cluster<br>CNI vs Kubnet<br>Azure vs Calico<br>Ingress<br>Egress<br>DNS Configuration| Docker<br>VS Code Tools<br>Dapr | CI/CD Pipelines<br>ADO<br>Helm<br>GitOps | RBAC<br>AAD Integration<br>Private Endpoints for Paas Services<br>Key Vault | Container Insights<br>Prometheus Grafana
+K8s architecture<br>Master, Node and Node Pools<br>VM Scale sets<br>Public vs Private cluster<br>CNI vs Kubnet<br>Azure vs Calico<br>Ingress<br>Egress<br>DNS Configuration| Docker<br>VS Code Tools<br>Dapr<br>Container Request Limits | CI/CD Pipelines<br>ADO<br>Helm<br>GitOps | RBAC<br>AAD Integration<br>Private Endpoints for Paas Services<br>Key Vault | Container Insights<br>Prometheus Grafana
 
 ## AKS Overview
 
@@ -16,6 +16,7 @@ K8s architecture<br>Master, Node and Node Pools<br>VM Scale sets<br>Public vs Pr
     - Controller
     - ETCD
     - Etc.
+    - **Note**: Master node could go down and workloads could still work. Uptime SLA provides higher availability for the master node.
   - Worker Node
     - Kubenet
     - Containerd
