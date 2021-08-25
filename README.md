@@ -22,7 +22,7 @@ A "big" services that involves issues of:
     - Kubenet
     - Containerd
     - Etc.
-- SLA & cloud architecture
+- SLA & [cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
   - Backed by Scalesets
   - 2 VMs (99.9) or 3 VMs in availability zone (99.95%)
   - Perform a compound analysis
