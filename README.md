@@ -29,7 +29,7 @@ A "big" services that involves issues of:
   - [Perform a compound analysis](https://megamorf.gitlab.io/cheat-sheets/calculate-compound-availability/)
 - Cost
   - Leverage reserved instances
-  - Leverage second billing from ACIs
+  - Leverage second billing with ACI bursting
 - [Scalabiltiy](https://docs.microsoft.com/en-us/azure/aks/concepts-scale)
   - HPA (K8s construct)
   - Cluster auto-scaler (Azure construct)
