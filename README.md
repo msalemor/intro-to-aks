@@ -26,6 +26,7 @@ A "big" services that involves issues of:
   - Backed by Scalesets
   - 2 VMs (99.9) or 3 VMs in availability zone (99.95%)
   - [Uptime SLA - higher availability for the management plane](https://docs.microsoft.com/en-us/azure/aks/uptime-sla)
+  - Perform a compound analysis
 - [Scalabiltiy](https://docs.microsoft.com/en-us/azure/aks/concepts-scale)
   - HPA
   - Cluster auto-scaler
@@ -52,8 +53,7 @@ A "big" services that involves issues of:
     - Use Network policies (Azure or Calico) indside the cluster
 
 ## [Cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
-  - [Sample Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster)
-  - Perform a compound analysis
+  - [Sample Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster)  
   - Resiliency, High availability, DR
 
 ## Container Registry & Key Vault integration
