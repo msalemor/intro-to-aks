@@ -53,7 +53,7 @@ A "big" services that involves issues of:
     - Application Gateway Ingress Controller (AGIC) or others (NGINX, Traefik, etc.)
   - Traffic restrictions
     - Use NSGs outside the cluster
-    - Use Network policies (Azure or Calico) indside the cluster
+    - Use Network policies (Azure or Calico) inside the cluster
 
 ## [Cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
   - [Sample Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster)  
