@@ -34,9 +34,6 @@ Master, Node and Node Pools<br>VM Scale sets<br>Public vs Private cluster<br>CNI
     - DR strategies
       - Backup and restore from/to the running images
       - Restore from DevOps pipeline
-- Cost
-  - Leverage reserved instances
-  - Leverage second billing with ACI bursting
 - [Scalabiltiy](https://docs.microsoft.com/en-us/azure/aks/concepts-scale)
   - HPA (K8s construct)
   - Cluster auto-scaler (Azure construct)
@@ -61,6 +58,9 @@ Master, Node and Node Pools<br>VM Scale sets<br>Public vs Private cluster<br>CNI
   - Traffic restrictions
     - Use NSGs outside the cluster
     - Use Network policies (Azure or Calico) inside the cluster
+- Cost
+  - Leverage reserved instances
+  - Leverage second billing with ACI bursting
 
 ## Container Registry & Key Vault integration
 
