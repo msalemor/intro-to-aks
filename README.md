@@ -24,7 +24,7 @@ A "big" services that involves issues of:
     - Etc.
 - [SLA](https://azure.microsoft.com/en-us/support/legal/sla/kubernetes-service/v1_1/)
   - Backed by Scalesets
-  - 2 VMs (99.9) or 3 VMs in availability zone (99.95%)
+  - 2 VMs (99.9) or 3 VMs in availability zones (99.95%)
   - [Uptime SLA - higher availability for the management plane](https://docs.microsoft.com/en-us/azure/aks/uptime-sla)
   - Perform a compound analysis
 - [Scalabiltiy](https://docs.microsoft.com/en-us/azure/aks/concepts-scale)
