@@ -48,12 +48,6 @@ A "big" services that involves issues of:
     - AGIC or others (NGINX)
   - Network policies
 
-## Security
-
-- RBAC
-- > AAD integration
-- > [Recommendations from our team](https://github.com/msalemor/aks-security-recommendations)
-
 ## Container Registry & Key Vault integration
 
 - Integration with ACR and Docker Hub
@@ -73,6 +67,12 @@ A "big" services that involves issues of:
 - CI/CI pipelines with Git actions or Azure DevOps
 - [Helmp charts](https://helm.sh/)
 - [(*) Gitops](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/gitops-aks/gitops-blueprint-aks)
+
+## Security
+
+- RBAC
+- > AAD integration
+- > [Recommendations from our team](https://github.com/msalemor/aks-security-recommendations)
 
 ## Monitoring
 
