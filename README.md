@@ -22,12 +22,10 @@ A "big" services that involves issues of:
     - Kubenet
     - Containerd
     - Etc.
-- [SLA](https://azure.microsoft.com/en-us/support/legal/sla/kubernetes-service/v1_1/) & [cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
+- [SLA](https://azure.microsoft.com/en-us/support/legal/sla/kubernetes-service/v1_1/)
   - Backed by Scalesets
   - 2 VMs (99.9) or 3 VMs in availability zone (99.95%)
   - [Uptime SLA - higher availability for the management plane](https://docs.microsoft.com/en-us/azure/aks/uptime-sla)
-  - Perform a compound analysis
-  - Resiliency, High availability, DR
 - [Scalabiltiy](https://docs.microsoft.com/en-us/azure/aks/concepts-scale)
   - HPA
   - Cluster auto-scaler
@@ -49,17 +47,23 @@ A "big" services that involves issues of:
   - Ingress
     - Loadbalancer
     - AGIC or others (NGINX)
-  - Network policies
+  - Traffic restrictions
+    - NSG: outside the cluster
+    - Network policies: indside the cluster
+- [cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
+  - [Sample Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster)
+  - Perform a compound analysis
+  - Resiliency, High availability, DR
 
 ## Container Registry & Key Vault integration
 
-- Integration with ACR and Docker Hub
+- [Integration with ACR and Docker Hub](https://docs.microsoft.com/en-us/azure/aks/cluster-container-registry-integration?tabs=azure-cli)
 - Integration with Key Vault
   - **Note:** In Kubernetes secrets are 64 based encoded strings. They are not secrets.
 
 ## Development
 
-- DAPR
+- [DAPR](https://dapr.io/)
 
 ## Operating the cluster
 
