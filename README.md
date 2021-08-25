@@ -57,7 +57,7 @@ A "big" services that involves issues of:
 
 ## Container Registry & Key Vault integration
 
-- [Integration with ACR and Docker Hub](https://docs.microsoft.com/en-us/azure/aks/cluster-container-registry-integration?tabs=azure-cli)
+- [Integration with Azure Container Registry](https://docs.microsoft.com/en-us/azure/aks/cluster-container-registry-integration?tabs=azure-cli)
 - Integration with Key Vault
   - **Note:** In Kubernetes secrets are 64 based encoded strings. They are not secrets.
 
