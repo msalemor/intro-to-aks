@@ -31,9 +31,9 @@ A "big" services that involves issues of:
   - Leverage reserved instances
   - Leverage second billing from ACIs
 - [Scalabiltiy](https://docs.microsoft.com/en-us/azure/aks/concepts-scale)
-  - HPA
-  - Cluster auto-scaler
-  - ACI (bursting)
+  - HPA (K8s construct)
+  - Cluster auto-scaler (Azure construct)
+  - ACI (bursting) (Azure construct)
 - [Networking](https://docs.microsoft.com/en-us/azure/aks/concepts-network)
   - Kubnet
     - Pro: Private IP range to the cluster. Use when you have exhasted your IP space.
