@@ -50,7 +50,7 @@ A "big" services that involves issues of:
   - Traffic restrictions
     - NSG: outside the cluster
     - Network policies: indside the cluster
-- [cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
+- [Cloud architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks)
   - [Sample Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster)
   - Perform a compound analysis
   - Resiliency, High availability, DR
